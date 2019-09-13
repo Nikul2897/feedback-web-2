@@ -9,6 +9,7 @@ import { TostrComponent } from './tostr/tostr.component';
   declarations: [LoaderComponent, TostrComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ TostrComponent ]
 })
 export class FeedbackCommonModule { }

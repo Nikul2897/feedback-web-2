@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+/** Loader color **/
+.mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #111f3f ;
+   }
+
+.error-snackbar{
+    background: #d32f2f;
+  }
+  .success-snackbar{
+  background: #43a047;
+  }
+  .info-snackbar{
+  background: #38a7ff;
+  }
+  .warning-snackbar{
+  background: #ffa000;
+  }
