@@ -11,10 +11,11 @@ import { HttpService } from './feedback-common/http.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from './feedback-common/merterial.module';
 import { TostrComponent } from './feedback-common/tostr/tostr.component';
+import { LoginComponent } from './feedback-common/login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent, TostrComponent
+    AppComponent, TostrComponent, LoginComponent
   ],
   imports: [
     BrowserModule,

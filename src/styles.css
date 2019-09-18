@@ -1,4 +1,10 @@
 /** Loader color **/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .mat-progress-spinner circle, .mat-spinner circle {
     stroke: #111f3f ;
    }
@@ -14,4 +20,137 @@
   }
   .warning-snackbar{
   background: #ffa000;
+  }
+
+  a.btn-s:hover{
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+  .mat-toolbar.mat-primary {
+      background: #e3714d;
+      color: #fff;
+  }
+  .link-spac-bet-btn{
+      float: left;
+      display: flex;  
+      justify-content: space-between;
+      width: 100%;
+  }
+  .example-container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+  .footer-page{
+    color:#dddddd;
+    display: flex;
+  }
+  
+  html, body { height: 37em; }
+  body { margin: 0;
+     font-family: Roboto, "Helvetica Neue", sans-serif;
+      background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* You can add global styles to this file, and also import other style files */
+  
+  .container-fluid{
+    background: #ffffff;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+  }
+  app-root{
+    float: left;
+    width: 100%;
+  
+  }
+  /* Start the content of login and other pages css */
+  .login-page{
+        float: left;
+      width: 100%;
+      padding: 1em 1em;
+      display: flex;
+      justify-content: center;
+    align-items: center;
+  }
+  .mat-card.login-card{
+              float: left;
+          background: #fafafa;
+          width: 100%;
+          padding: 2em;
+          box-shadow: 2px 5px 13px -3px rgba(0,0,0,.38);
+      }
+  .login-form{
+    float: left;
+      width: 100%;
+  }
+  form{
+    float: left;
+  }
+  .login-btn-submit{
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2em;	
+  }
+  .login-page-from{
+    float: left;
+    display: flex;
+  }
+  .login-content-data{
+    float: left;
+    display: flex;
+    width: 100%;
+    margin: 0 1.5em;
+  }
+  .img-password-email{
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  .mat-card a.btn-s{
+    float: left;
+      padding: 0.5em 3em;
+      display: flex;
+      border: 1px solid #ddd;
+      background: #e3714d;
+      color: #ffffff !important;
+    font-size: 1em;
+    width: 100%;
+    text-decoration: none;
+      font-weight: 400;
+      border-radius: 5px;
+      text-align: center;
+      justify-content: center;
+  }
+  .btn-s:focus,.btn-s:hover{
+    background: #3f51b5;
+    color: #ffffff;
+  }
+  /* footer css start  */
+  
+  .card-footer{
+    
+      float: left;
+      display: flex;
+      width: 100%;
+      position: relative;
   }
