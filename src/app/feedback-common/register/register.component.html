@@ -1,0 +1,40 @@
+<div class="container-fluid">
+        <div class="login-page">
+        <mat-card class="login-card">
+              <mat-card-title>Registration</mat-card-title>
+            <form>
+                 <mat-form-field class="login-form">
+                      <input matInput type="text" placeholder="Email Id" value="">
+                 </mat-form-field>
+                <mat-form-field class="login-form">
+                      <input matInput type="text" placeholder="MobileNo" value="">
+                 </mat-form-field>
+                 <mat-form-field class="login-form">
+                      <input matInput type="text" placeholder="Orgenization Name" value="">
+                 </mat-form-field>
+                 <mat-form-field class="login-form">
+                      <input matInput type="text" placeholder="Gst-IN" value="">
+                 </mat-form-field>
+                 <mat-form-field class="login-form">
+                <mat-label>Select Any One</mat-label>
+                <mat-select [(value)]="selected">           
+                    <mat-option value="option1">Mobile No</mat-option>
+                    <mat-option value="option2">EmailId</mat-option>
+                </mat-select>
+                </mat-form-field>
+                <div class="login-btn-submit">
+                <a mat-button class="btn-s button-register">Submit</a>
+                </div>
+                </form>
+                
+        </mat-card>
+        
+        <!-- <mat-card class="login-card">
+            <span>Welcome Patel Solution verify your Email Id </span>
+            <div class="login-btn-submit">
+                <a mat-button class="btn-s button-submit">SendMail</a>
+                </div>
+        </mat-card> -->
+        </div>
+        </div>
+       

@@ -12,10 +12,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from './feedback-common/merterial.module';
 import { TostrComponent } from './feedback-common/tostr/tostr.component';
 import { LoginComponent } from './feedback-common/login/login.component';
+import { RegisterComponent } from './feedback-common/register/register.component';
 
 @NgModule({
   declarations: [
-    AppComponent, TostrComponent, LoginComponent
+    AppComponent, TostrComponent, LoginComponent, RegisterComponent
   ],
   imports: [
     BrowserModule,
