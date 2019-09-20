@@ -36,9 +36,21 @@ html, body { height: 100%;}
     text-decoration: none !important;
   }
   .mat-toolbar.mat-primary {
-      background: #e3714d;
+      background: #89e1a6ad;
       color: #fff;
   }
+  .link-btn-nav{
+    float: left;
+    display: -webkit-box;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 1em;
+    background: #d9d9d93d;
+  }
+  .link-btn-nav a{
+    margin: 0 0 1em;
+ }
   .link-spac-bet-btn{
       float: left;
       display: flex;  
@@ -56,10 +68,6 @@ html, body { height: 100%;}
     align-items: center;
     justify-content: center;
   }
-  
-  .example-sidenav {
-    padding: 20px;
-  }
   .footer-page{
     color:#dddddd;
     display: flex;
@@ -74,7 +82,6 @@ html, body { height: 100%;}
         display: flex;
       justify-content: center;
       align-items: center;
-      width: 50%;
       height: 100%;
       margin: 0 auto;
   }
@@ -86,7 +93,7 @@ html, body { height: 100%;}
   /* Start the content of login and other pages css */
   .login-page{
         float: left;
-      width: 100%;
+      width: 50%;
       padding: 1em 1em;
       display: flex;
       justify-content: center;
@@ -121,8 +128,6 @@ html, body { height: 100%;}
   .login-content-data{
     float: left;
     display: flex;
-    width: 100%;
-    margin: 0 1.5em;
   }
   .img-password-email{
     float: left;
@@ -149,11 +154,65 @@ html, body { height: 100%;}
     color: #ffffff;
   }
   /* footer css start  */
-  
-  .card-footer{
-    
+  .mat-drawer{
+    width: 15%;
+}
+  .card-footer{    
       float: left;
       display: flex;
       width: 100%;
       position: relative;
+  }
+    form{
+      float: left;
+      width: 100%;
+    }
+
+    @media (max-width:1000px){
+      .login-page{
+        float: left;
+      width: 50%;
+    }
+    .img-password-email{
+      display: none;
+    }
+    .login-content-data{
+      margin: 0;
+    }
+    .mat-card.login-card{
+      padding: 2em 0;
+    }
+    .login-content-data{
+      float: left;
+      width: 100%;
+      padding: 0 !important
+    }
+    form{
+      padding: 0 !important;
+    }
+  }
+
+     @media (max-width:515px){
+      .login-page {
+        float: left;
+        width: 100%;    
+    }
+    .mat-drawer.drw-side-bar{
+    width: auto;
+  }
+    .img-password-email{
+      display: none;
+    }
+    .login-content-data{
+      margin: 0;
+    }
+    .mat-card.login-card{
+      padding: 2em;
+    }
+    .login-content-data{
+      float: left;
+      width: 100%;
+      padding: 0 !important
+    }
+    
   }

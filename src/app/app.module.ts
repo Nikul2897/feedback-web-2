@@ -13,10 +13,11 @@ import { MaterialModule } from './feedback-common/merterial.module';
 import { TostrComponent } from './feedback-common/tostr/tostr.component';
 import { LoginComponent } from './feedback-common/login/login.component';
 import { RegisterComponent } from './feedback-common/register/register.component';
+import { NavbarComponent } from './feedback-common/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent, TostrComponent, LoginComponent, RegisterComponent
+    AppComponent, TostrComponent, LoginComponent, RegisterComponent, NavbarComponent
   ],
   imports: [
     BrowserModule,

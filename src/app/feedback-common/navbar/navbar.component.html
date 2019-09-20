@@ -1,0 +1,24 @@
+<mat-drawer-container class="example-container" autosize>
+	<mat-toolbar color="primary">
+  <mat-toolbar-row>	 
+    <button mat-icon-button>
+      <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+	</button>
+    <h1>Patel Project</h1>
+    <span class="menu-spacer"></span>
+   
+  </mat-toolbar-row>
+</mat-toolbar>
+  <mat-drawer #drawer class="example-sidenav drw-side-bar" mode="side">
+    <mat-toolbar color="primary">Patel Project</mat-toolbar>
+    <div class="link-btn-nav">
+    <a mat-raised-button routerLink=".">Link</a>
+    <a mat-raised-button routerLink=".">Link</a>
+    <a mat-raised-button routerLink=".">Link</a>
+    <a mat-raised-button routerLink=".">Link</a>
+    <a mat-raised-button routerLink=".">Link</a>
+    <a mat-raised-button routerLink=".">Link</a>
+  </div>
+  </mat-drawer>
+  <router-outlet></router-outlet>
+</mat-drawer-container>
