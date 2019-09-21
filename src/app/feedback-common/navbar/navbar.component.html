@@ -11,13 +11,10 @@
 </mat-toolbar>
   <mat-drawer #drawer class="example-sidenav drw-side-bar" mode="side">
     <mat-toolbar color="primary">Patel Project</mat-toolbar>
-    <div class="link-btn-nav">
-    <a mat-raised-button routerLink=".">Link</a>
-    <a mat-raised-button routerLink=".">Link</a>
-    <a mat-raised-button routerLink=".">Link</a>
-    <a mat-raised-button routerLink=".">Link</a>
-    <a mat-raised-button routerLink=".">Link</a>
-    <a mat-raised-button routerLink=".">Link</a>
+    <div class="link-btn-nav" id="link-btnnav">
+    <a mat-raised-button id="about" routerLink="."><mat-icon>home</mat-icon> <span class="text-name-hide">home</span></a>
+    <a mat-raised-button id="blog" routerLink="."><mat-icon>home</mat-icon><span class="text-name-hide">home</span></a>
+    <a mat-raised-button id="projects" routerLink="."><mat-icon>home</mat-icon><span class="text-name-hide">home</span></a>
   </div>
   </mat-drawer>
   <router-outlet></router-outlet>

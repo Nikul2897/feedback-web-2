@@ -36,8 +36,9 @@ html, body { height: 100%;}
     text-decoration: none !important;
   }
   .mat-toolbar.mat-primary {
-      background: #89e1a6ad;
-      color: #fff;
+    background: #d9d9d920;
+    color: #000;    
+    box-shadow: -2px -1px 6px 0px #000;
   }
   .link-btn-nav{
     float: left;
@@ -45,11 +46,16 @@ html, body { height: 100%;}
     display: flex;
     flex-flow: column;
     width: 100%;
-    padding: 1em;
     background: #d9d9d93d;
   }
+  
   .link-btn-nav a{
     margin: 0 0 1em;
+ }
+ .link-btn-nav a:hover{
+  background: #e3714d;
+  color: #000;  
+  text-decoration: none;
  }
   .link-spac-bet-btn{
       float: left;
@@ -167,6 +173,9 @@ html, body { height: 100%;}
       float: left;
       width: 100%;
     }
+ .mat-icon-button .btn-s:focus{
+  color:#e3714d;
+ }
 
     @media (max-width:1000px){
       .login-page{
@@ -200,6 +209,7 @@ html, body { height: 100%;}
     .mat-drawer.drw-side-bar{
     width: auto;
   }
+  
     .img-password-email{
       display: none;
     }
